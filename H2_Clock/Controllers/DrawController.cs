@@ -101,10 +101,9 @@ namespace H2_Clock.Controllers
 
 			_view.CreateSquares(x1, y1);
 
-			int x2 = characterPosition * _characterSpace + _characterSpace / 2;
 			int y2 = y1 + _segmentHeight;
 
-			_view.CreateSquares(x2, y2);
+			_view.CreateSquares(x1, y2);
 		}
 	}
 }
